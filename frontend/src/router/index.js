@@ -38,7 +38,7 @@ const router = createRouter({
 // Docs: https://router.vuejs.org/guide/advanced/navigation-guards.html#global-before-guards
 router.beforeEach(to => {
   const isLoggedIn = isUserLoggedIn()
-
+  
   /*
   
     ℹ️ Commented code is legacy code
