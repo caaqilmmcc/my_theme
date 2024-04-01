@@ -1,6 +1,11 @@
 export default [
   { heading: 'Apps & Pages' },
   {
+    title: 'Todo',
+    icon: { icon: 'tabler-checklist' },
+    to: 'apps-todo',
+  },
+  {
     title: 'Email',
     icon: { icon: 'tabler-mail' },
     to: 'apps-email',
